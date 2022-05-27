@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'abnormal-apes';
+const COLLECTION_NAME = 'aplus-access-pass';
 let editions = [];
 let dots = 1;
 

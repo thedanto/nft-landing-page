@@ -11,7 +11,7 @@
   --bg-color: #00163f;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #bd2727;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -107,42 +107,43 @@ section {
 
 .countdown ul {
   display: flex;
-  gap: 2rem
+  gap: 4rem
 }
 .countdown .clock-item {
   list-style: none;
-  width: 70px;
+  width: 140px;
   height: auto;
 }
 .countdown .clock-item .count-number {
   background: var(--accent-color);
   color: var(--font-color);
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
   font-family: var(--font-secondary);
-  padding: 1rem;
+  padding: 2rem;
   display: inline-block;
   width: 100%;
   text-align: center;
-  line-height: 1;
-  border-radius: 4px 4px 0 0;
+  line-height: 1.3;
+  border-radius: 8px 8px 0 0;
 }
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: var(--font-secondary);
-  font-size: 1.1rem;
+  font-size: 2.2rem;
+  font-weight: 600;
   color: var(--bg-color);
   padding: 0.5rem 0.7rem;
   display: inline-block;
   width: 100%;
   text-align: center;
-  line-height: 1;
-  border-radius: 0 0 4px 4px;
+  line-height: 2;
+  border-radius: 0 0 8px 8px;
 }
 
 .countdown h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  font-style: standard;
   margin: 2rem 0;
   font-size: 3.5rem;
   text-align: center;
